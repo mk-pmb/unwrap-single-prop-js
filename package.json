@@ -1,0 +1,33 @@
+{ "name": "unwrap-single-prop",
+  "version": "0.0.0",
+  "description": "If your container element holds just a single property, and its key is named as you suspect it may, return just that property's value. Otherwise, return the original container. Useful for `require(…).default` situations.",
+  "keywords": [
+    "extract",
+    "unpack",
+    "unwrap"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/unwrap-single-prop-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/unwrap-single-prop-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/unwrap-single-prop-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "scripts": { "test": "elp && node test.usage.js" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+}
