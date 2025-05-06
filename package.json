@@ -1,5 +1,5 @@
 { "name": "unwrap-single-prop",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "If your container element holds just a single property, and its key is named as you suspect it may, return just that property's value. Otherwise, return the original container. Useful for `require(…).default` situations.",
   "keywords": [
     "extract",
@@ -26,6 +26,10 @@
 
   "dependencies": {},
   "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.6",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^17.16.2",
+    "eslint-pretty-pmb": "^1.0.6"
   },
 
 
